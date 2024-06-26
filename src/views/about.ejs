@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <%- include('partial/head') %>
+  </head>
+  <body>
+    <%- include('partial/nav') %>
+    <main
+      class="vh-100 container pt-2 text-center d-flex justify-content-center align-items-center"
+    >
+      <section
+        class="container vh-100 d-flex justify-content-center align-items-center"
+      >
+        <div class="row w-100">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="/img/javascript.png" alt="" class="w-50 mb-4" />
+            <h1 class="display-1 my-5 text-uppercase fw-bold">Express</h1>
+            <a href="/" class="btn btn-primary w-50">Home</a>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <p class="text-justify">
+              Esta aplicación utiliza Express, un marco de aplicaciones web de
+              Node.js, para manejar el enrutamiento. <br><br>
+              Express nos permite definir
+              rutas y gestionar las solicitudes HTTP de manera eficiente,
+              facilitando la creación de rutas dinámicas y personalizadas para
+              servir contenido y responder a las interacciones del usuario.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <%- include('partial/footer') %>
+  </body>
+</html>
